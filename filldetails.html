@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SEEKING-CRM</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  
+}
+.logo{
+  color: #000000;
+  font-size: 30px;
+  font-family: Arial;
+  padding-left: 0px;
+  float: left;
+  padding-top: 10px;
+  margin-top: 5px
+}
+
+.menu{
+        width: 360px;
+        float: left;
+        height: 70px;
+    }
+    
+    ul{
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul li{
+        list-style: none;
+        margin-left: 90px;
+        margin-top: 15px;
+        font-size: 14px;
+    }
+    
+    ul li a{
+        text-decoration: none;
+        color: #000000;
+        font-family: Arial;
+        font-weight: bold;
+        transition: 0.4s ease-in-out;
+    }
+    
+    ul li a:hover{
+        color: #020c61;
+    }
+    
+    .search{
+        width: 330px;
+        float: left;
+        margin-left: 700px;
+        margin-top: 0px ;
+    }
+    
+    .srch{
+        font-family: 'Times New Roman';
+        width: 200px;
+        height: 40px;
+        background: transparent;
+        border: 1px solid #000000;
+        margin-top: 0px;
+        color: #000000;
+        border-right: none;
+        font-size: 16px;
+        float: left;
+        padding: 13px;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+    }
+    
+    .btn{
+        width: 100px;
+        height: 40px;
+        background: #252531;
+        border: 2px solid #000000;
+        margin-top: 0px;
+        color: #fff;
+        font-size: 15px;
+        border-bottom-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        transition: 0.2s ease;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: #020941;
+    }
+    
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 1;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url(res2.jpeg);
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url(downloaddd.jpeg);
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url(Business-Conrner.jpg);
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fffefe;
+}
+
+.caption span.border {
+  background-color: #000000;
+  color: #fcfbfb;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+.icons a{
+  text-decoration: none;
+  color: #fff;
+}
+.icons ion-icon{
+  color: #fff;
+  font-size: 30px;
+  padding-left: 14px;
+  padding-top: 5px;
+  transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+  color: #0e1944;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
+</style>
+</head>
+<body>
+   
+
+<div class="bgimg-1">
+  <div class="icon">
+    <h2 class="logo">Seeking-CRM</h2></div>
+  <div class="menu">
+   
+  
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">CONTACT</a></li>
+    </ul>
+</div>
+
+
+<div class="search">
+    <input class="srch" type="search" name="" placeholder="Type To text">
+    <a href="#"> <button class="btn">Search</button></a>
+</div>
+  <div class="caption">
+  <span class="border">SEEKING-CRM</span>
+  </div>
+</div>
+
+
+<div style=background-color: rgb(255, 255, 252, 252);text-align:center;padding:50px 80px;text-align: justify;>
+  <h3 style="text-align:center;">ABOUT US</h3>
+  <p>Seeking-CRM is a free and open source program to help small businesses with sales and services. It has a web interface and works from any modern browser. It is currently in the testing phase (beta version).
+
+    Seeking-CRM is software that needs to be installed on the server. Don't worry about the word "server" - you don't have to have a real expensive server these days.
+    You can completely get by with a virtual server (VPS-server), the services for which are provided by many hosting companies, and it will cost no more than regular website hosting</p>
+</div>
+
+
+<div class="bgimg-2">
+  <div class="caption">
+  <span class="border" style="background-color:black;font-size:25px;color: #ffffff;">Say bye to spreadsheets</span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#ddd;background-color:#525c65;text-align:center;padding:50px 80px;text-align: justify; ">
+  <p>CRM will help businesses to keep all their data organized on a single platform</p>
+  </div>
+</div>
+
+<div class="bgimg-3">
+  <div class="caption">
+  <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;"></span>
+  </div>
+</div>
+
+<div style="position:relative;">
+  <div style="color:#000000;text-align:center;padding:80px 80px;text-align: justify;">
+  <p>Customers want something that's easy to adopt and simple to use
+  </p>
+  </div>
+</div>
+
+<div class="bgimg-1">
+  <div class="caption">
+  <span class="border">Customer support software for any business, any size</span>
+  
+
+
+  </div>
+</div>
+
+</body>
+</html>
